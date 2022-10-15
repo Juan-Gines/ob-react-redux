@@ -1,25 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import TodosContainer from './components/containers/todoContainers';
+import TodoFormContainer from './components/containers/todoFormContainer';
+import FilterOptions from './components/pure/filterOptions';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<header className="App-header">
+				{/* <TodosContainer></TodosContainer>
+				<TodoFormContainer></TodoFormContainer>
+				<FilterOptions></FilterOptions> */}
+			</header>
+		</div>
+	);
 }
 
 export default App;
+
